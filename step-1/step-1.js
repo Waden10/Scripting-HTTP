@@ -12,6 +12,7 @@ function getAndPrintHTMLChunks () {
   https.get(requestOptions, (res) => {
     // console.log('statusCode:', res.statusCode);
     // console.log('headers:', res.headers);
+    
 
     res.on('data', (d) => {
       // process.stdout.write(d);
